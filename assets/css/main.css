@@ -1188,9 +1188,9 @@ section,
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .alt-services h3:after {
@@ -1198,10 +1198,11 @@ section,
   background: #fd6600;
   position: absolute;
   display: block;
-  width: 110px;
+  width: 107px;
   height: 3px;
-  left: 0;
+  left: 50%;
   bottom: 0;
+  transform: translateX(-50%);
 }
 
 .alt-services .icon-box {
