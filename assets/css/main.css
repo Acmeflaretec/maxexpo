@@ -787,7 +787,7 @@ section,
 .hero .info p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   font-size: 15px;
-  /* text-align: left; */
+ 
 }
 
 .hero .info .btn-get-started {
@@ -1253,9 +1253,7 @@ section,
   margin-bottom: 0;
   
 }
-.alt-services p{
-  text-align: center;
-}
+
 
 /*--------------------------------------------------------------
 # Features Section
@@ -1671,6 +1669,7 @@ section,
     max-width: 65%;
     margin: 0 0 80px 0;
   }
+ 
 }
 
 .about .our-story {
@@ -2950,6 +2949,9 @@ section,
 @media screen and (max-width: 768px) {
   .contact-map iframe {
     width: 80%;
+  }
+  .alt-services .p-tag{
+    text-align: center;
   }
 }
 .footer-links iframe {
